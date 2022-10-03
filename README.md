@@ -16,8 +16,9 @@ The key features made available by Fast API include High performance, fewer bugs
  1) Fork the repository
  
  2) Clone the repository - 
+Insert your username of github at <USERNAME> OR simply copy link from code button.
 ```bash
-git clone https://github.com/parthdasawant/text-summarization-spaCy.git
+git clone https://github.com/<USERNAME>/text-summarization-spaCy.git
 ```
  
  3) Create & activate virtual environment
