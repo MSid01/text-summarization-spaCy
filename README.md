@@ -15,17 +15,28 @@ The key features made available by Fast API include High performance, fewer bugs
 
  1) Fork the repository
  
- 2) Clone the repository - git clone "repo url"
+ 2) Clone the repository - 
+Insert your username of github at <USERNAME> OR simply copy link from code button.
+```bash
+git clone https://github.com/<USERNAME>/text-summarization-spaCy.git
+```
  
  3) Create & activate virtual environment
-    python -m venv fastapienv
-
-    activate venv 
-    source fastapi/Scripts/activate
+```bash python -m venv fastapienv
+ activate venv 
+ ````
+ ```bash
+ source ./fastapi/Scripts/activate
+ ```
+ 4) Install all dependencies - 
+ ```bash 
+ pip install -r requirements.txt
+ ```
  
- 4) Install all dependencies - pip install -r requirements.txt
- 
- 5) Run through Uvicorn - uvicorn app:app --reload
+ 5) Run through 
+ ```bash
+ Uvicorn - uvicorn app:app --reload
+ ```
  
  6) Run the localhost request on your browser - https://localhost:8000
  
@@ -33,18 +44,27 @@ The key features made available by Fast API include High performance, fewer bugs
 
 
  create new branch with
-  git branch temp
+```bash 
+git branch temp
+```
 
-  git checkout temp
-
+```bash 
+git checkout temp
+```
 
   make changes
 
-  git add .
-  git commit -m "some message"
+```bash 
+git add .
+```
 
-  git push origin temp
+```bash 
+git commit -m "some message"
+```
 
+```bash  
+git push origin temp
+```
 
   create new pull request from github
  
