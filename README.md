@@ -22,11 +22,13 @@ git clone https://github.com/<USERNAME>/text-summarization-spaCy.git
 ```
  
  3) Create & activate virtual environment
-```bash python -m venv fastapienv
- activate venv 
- ````
+``` bash
+ python -m venv fastapienv
+ ```
+  Activate Fastapienv venv 
+ 
  ```bash
- source ./fastapi/Scripts/activate
+ source ./fastapienv/Scripts/activate
  ```
  4) Install all dependencies - 
  ```bash 
