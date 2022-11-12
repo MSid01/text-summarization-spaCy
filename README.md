@@ -37,7 +37,7 @@ git clone https://github.com/<USERNAME>/text-summarization-spaCy.git
  
  5) Run through 
  ```bash
- Uvicorn - uvicorn app:app --reload
+ uvicorn app:app --reload
  ```
  
  6) Run the localhost request on your browser - https://localhost:8000
